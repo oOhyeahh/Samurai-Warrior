@@ -1,0 +1,35 @@
+<div class="container mt-5">
+  <div class="row">
+    <h1>{{user.username | titlecase}}'s Profile</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img class="card-img-top img-thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVPjC6IjuW9CyTuocqrUWMwA5H3R4v5jG7tQDQEzT6Cna-Xm2" alt="{{user.username}}">
+        <div class="card-body">
+          <strong>Army:</strong>
+          <p>{{user.army | titlecase}}</p>
+        </div>
+        <div class="card-footer">
+          <div class="btn-group">
+            <button class="btn btn-primary"><i class="fa fa-heart"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div class="tab-panel">
+        <tabset class="member-tabset">
+          <tab heading = "About {{user.username | titlecase }}">
+            <h4>Description</h4>
+            <p>{{user.description}}</p>
+          </tab>
+          <tab heading="Photos">
+            <h4>Photos</h4>
+            <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+          </tab>
+        </tabset>
+      </div>
+    </div>
+  </div>
+</div>
