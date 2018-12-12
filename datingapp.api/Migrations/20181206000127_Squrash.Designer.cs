@@ -9,8 +9,8 @@ using datingapp.api.Data;
 namespace datingapp.api.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20181128064656_ExtendedUserClass")]
-    partial class ExtendedUserClass
+    [Migration("20181206000127_Squrash")]
+    partial class Squrash
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -24,6 +24,8 @@ namespace datingapp.api.Migrations
                         .ValueGeneratedOnAdd();
 
                     b.Property<bool>("IsMain");
+
+                    b.Property<string>("PublicId");
 
                     b.Property<string>("Url");
 
@@ -41,11 +43,13 @@ namespace datingapp.api.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Army");
+                    b.Property<string>("ClanOrAlliance");
 
                     b.Property<DateTime>("DateofBirth");
 
                     b.Property<string>("Description");
+
+                    b.Property<DateTime>("Died");
 
                     b.Property<byte[]>("PasswordHash");
 

@@ -23,6 +23,8 @@ namespace datingapp.api.Migrations
 
                     b.Property<bool>("IsMain");
 
+                    b.Property<string>("PublicId");
+
                     b.Property<string>("Url");
 
                     b.Property<int>("UserId");
@@ -39,11 +41,13 @@ namespace datingapp.api.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Army");
+                    b.Property<string>("ClanOrAlliance");
 
                     b.Property<DateTime>("DateofBirth");
 
                     b.Property<string>("Description");
+
+                    b.Property<DateTime>("Died");
 
                     b.Property<byte[]>("PasswordHash");
 

@@ -3,7 +3,7 @@ import { Photo } from './photo';
 export interface User {
     id: number;
     username: string;
-    army: string;
+    clanOrAlliance: string;
     description: string;
     photoUrl: string;
     dateofbirth: Date;

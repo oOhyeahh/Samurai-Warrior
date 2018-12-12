@@ -10,8 +10,9 @@ namespace datingapp.api.Models
         public byte[] PasswordHash { get; set; }
         public byte[] PasswordSalt { get; set; }
         public DateTime DateofBirth { get; set; }
+        public DateTime Died { get; set; }
         public string Description { get; set; }
-        public string Army { get; set; }
+        public string ClanOrAlliance { get; set; }
         public ICollection<Photo> Photos { get; set; }
     }
 }

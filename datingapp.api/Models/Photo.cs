@@ -6,6 +6,7 @@ namespace datingapp.api.Models
         public string Url {get; set;}
         public bool IsMain { get; set; }
         public User User { get; set; }
+        public string PublicId { get; set; }
         public int UserId { get; set; }
     }
 }

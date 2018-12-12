@@ -1,0 +1,73 @@
+[
+    {
+      "Username": "Yukimura Sanada",
+      "Born": "1567",
+      "Died": "1615-06-03",
+      "Password": "password",
+      "Description": "Yukimura Sanada (真田 幸村, Sanada Yukimura) is the romanticized name created for Nobushige. His historical counterpart is best known for his steadfast defense against the Tokugawa at Osaka. His accomplishments have been exaggerated after his death, and he is often heralded as the 'greatest warrior of the land'. Masayuki is his father, Yoshitsugu is his father-in-law, Ina is his sister-in-law, and his elder siblings are Lady Muramatsu and Nobuyuki.\r\n",
+      "ClanOrAlliance": "Sanada, Toyotomi, Western Army",
+      "Photos": [
+        {
+          "url": "https://vignette.wikia.nocookie.net/dynastywarriors/images/4/41/Yukimura-sw4art.jpg/revision/latest/scale-to-width-down/195?cb=20140324120940",
+          "isMain": true
+        }
+      ]
+    },
+    {
+      "Username": "Nobunaga Oda",
+      "DateOfBirth": "1534-06-23",
+      "Died": "1582-06-21",
+      "Password": "password",
+      "Description": "Nobunaga Oda is one of the three unifiers of the Warring States period along with his former generals, Hideyoshi Toyotomi and Ieyasu Tokugawa. Until his untimely demise, Nobunaga is widely considered to have had controlled most of Japan as one of the strongest ruling powers of his time. He is Nō's husband, Oichi's older brother, and Nagamasa Azai's brother-in-law. His successor is his son, Nobutada, though he often does not live to continue his father's legacy.\r\n",
+      "ClanOrAlliance": "Oda\r\n",
+      "Photos": [
+        {
+          "url": "https://vignette.wikia.nocookie.net/dynastywarriors/images/0/01/Nobunaga-sw4art.jpg/revision/latest/scale-to-width-down/195?cb=20140324120631",
+          "isMain": true
+          
+        }
+      ]
+    },
+    {
+      "Username": "Shingen Takeda",
+      "DateOfBirth": "1521-12-01",
+      "Died": "1573-05-13",
+      "Password": "password",
+      "Description": "Shingen Takeda is the nineteenth head of the Takeda clan and influential leader of his region, Kai Province. During his conquests in the eastern regions of Japan, he clashed with several prominent historical figures. After his death, Shingen has been romanticized as a masterful strategist and a thorough study of Sun Tzu, even going as far to adopt the Fūrinkazan as his banner. Folklore has him act as Kenshin's rival and his polar opposite, thus leading to his nickname the Tiger of Kai. His son and successor is Katsuyori.\r\n",
+      "ClanOrAlliance": "Takeda",
+      "Photos": [
+        {
+          "url": "https://vignette.wikia.nocookie.net/dynastywarriors/images/5/5d/Shingen-sw4art.jpg/revision/latest/scale-to-width-down/195?cb=20140324120801",
+          "isMain": true
+        }
+      ]
+    },
+    {
+      "Username": "Hideyoshi Toyotomi",
+      "DateOfBirth": "1536-02-02",
+      "Died": "1598-09-18",
+      "Password": "password",
+      "Description": "Hideyoshi Toyotomi is the most famous peasant-samurai in Japan and heralded as one of the three unifiers. He started as Nobunaga's sandal holder and worked his way to dominate over other warlords of his era. Hideyoshi became famous for his self-proclaimed title as the Great Regent (太閤, Taikō). After his death, Edo period folklore claims that Nobunaga gave him the nickname 'Monkey' (サル, Saru) in ode to his monkey-like physique. He is said to have had an unrequited infatuation with Oichi. Nene is his wife, Lady Yodo is his famous concubine, and his successor is Hideyori.\r\n",
+      "ClanOrAlliance": "Oda, Toyotomi\r\n",
+      "Photos": [
+        {
+          "url": "https://vignette.wikia.nocookie.net/dynastywarriors/images/a/a3/Hideyoshi-sw4art.jpg/revision/latest/scale-to-width-down/195?cb=20140324115123",
+          "isMain": true
+        }
+      ]
+    },
+    {
+      "Username": "Okuni",
+      "DateOfBirth": "1572-01-01",
+      "Died": "1613-01-01",
+      "Password": "password",
+      "Description": "Okuni (阿国) is an entertainer who is best known in history for founding the Japanese dance style, Kabuki. According to legends, she is a priestess of the Izumo Grand Shrine. She became famous throughout the land with her performances as they were her form of collecting alms for the shrine.\r\n",
+      "ClanOrAlliance": "null",
+      "Photos": [
+        {
+          "url": "https://vignette.wikia.nocookie.net/dynastywarriors/images/1/15/Okuni-sw4art.jpg/revision/latest/scale-to-width-down/195?cb=20140324120701",
+          "isMain": true
+        }
+      ]
+    }
+  ]
