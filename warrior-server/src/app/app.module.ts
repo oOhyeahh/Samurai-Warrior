@@ -29,16 +29,12 @@ import { MemberListResolver } from './_resolver/member-list.resolver';
 import { MemberEditResolver } from './_resolver/member-edit.resolver';
 
 // external packages
-import { BsDropdownModule, TabsModule, BsDatepickerModule } from 'ngx-bootstrap';
+import { BsDropdownModule, TabsModule, BsDatepickerModule, CollapseModule } from 'ngx-bootstrap';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { appRoutes } from './routes';
 import { PreventUnsavedChanges } from './_guards/prevent-unsaved-change.guard';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 import { FileUploadModule } from 'ng2-file-upload';
-
-
-
-
 
 export function tokenGetter() {
    return localStorage.getItem('token');
@@ -76,7 +72,8 @@ export function tokenGetter() {
       }),
       FileUploadModule,
       ReactiveFormsModule,
-      BsDatepickerModule.forRoot()
+      BsDatepickerModule.forRoot(),
+      CollapseModule.forRoot()
    ],
    providers: [
       AuthService,
