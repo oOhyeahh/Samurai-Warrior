@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using warrior.api.Models;
 using Microsoft.EntityFrameworkCore;
+using warrior.api.Helpers;
 
 namespace warrior.api.Data
 {
@@ -42,11 +43,11 @@ namespace warrior.api.Data
            return user; 
         }
 
-        public async Task<IEnumerable<User>> GetUsers()
+        public async Task<PagedList<User>> GetUsers(UserParams userParams)
         {
-            var users = await _context.Users.Include(p => p.Photos).ToListAsync();
+            var users = _context.Users.Include(p => p.Photos);
 
-            return users;
+            return await PagedList<User>.CreateAsync(users, userParams.PageNumber, userParams.PageSize);
         }
 
         public async Task<bool> SaveAll()

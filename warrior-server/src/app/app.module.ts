@@ -29,7 +29,7 @@ import { MemberListResolver } from './_resolver/member-list.resolver';
 import { MemberEditResolver } from './_resolver/member-edit.resolver';
 
 // external packages
-import { BsDropdownModule, TabsModule, BsDatepickerModule, CollapseModule } from 'ngx-bootstrap';
+import { BsDropdownModule, TabsModule, BsDatepickerModule, CollapseModule, PaginationModule } from 'ngx-bootstrap';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { appRoutes } from './routes';
 import { PreventUnsavedChanges } from './_guards/prevent-unsaved-change.guard';
@@ -73,7 +73,8 @@ export function tokenGetter() {
       FileUploadModule,
       ReactiveFormsModule,
       BsDatepickerModule.forRoot(),
-      CollapseModule.forRoot()
+      CollapseModule.forRoot(),
+      PaginationModule.forRoot()
    ],
    providers: [
       AuthService,
